@@ -45,4 +45,10 @@ group :test do
   gem 'capybara'
   gem 'launchy'
 end
+gem 'devise'
+   group :test, :development do 
+        gem 'cucumber-rails'   
+        gem 'capybara'
+        gem 'redgreen'
+    end
 
